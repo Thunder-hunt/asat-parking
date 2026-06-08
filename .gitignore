@@ -1,0 +1,20 @@
+# IDE / Editor folders
+.idea/
+.vscode/
+.fleet/
+.zed/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Nested dependencies (just in case they aren't caught)
+node_modules/
+vendor/
+
+# Local configuration
+.env
+.env*.local
