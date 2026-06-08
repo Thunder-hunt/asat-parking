@@ -1,20 +1,24 @@
-# IDE / Editor folders
-.idea/
-.vscode/
-.fleet/
-.zed/
-
-# OS generated files
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+*.log
 .DS_Store
-
-# Nested dependencies (just in case they aren't caught)
-node_modules/
-vendor/
-
-# Local configuration
 .env
-.env*.local
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
